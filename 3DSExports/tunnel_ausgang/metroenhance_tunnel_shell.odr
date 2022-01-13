@@ -1,0 +1,36 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler ah_gun_dirt_conc
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler metroenhance_tunnel_shell\ah_gun_dirt_conc.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 1500.0
+		{
+			metroenhance_tunnel_shell\tunnel.mesh 0
+		}
+		Med 0.0
+		Low 0.0
+		Vlow 0.0
+		AABBMin -9.6787243 -78.6180344 -6.7434769
+		AABBMax 8.8999023 -5.1250038 12.0072813
+		Radius 39.0448
+		Center -0.3894110 -41.8715210 2.6319027
+	}
+	Light null
+	Bound null
+	Joints null
+}

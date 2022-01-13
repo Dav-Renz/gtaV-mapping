@@ -1,0 +1,92 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			BumpSampler MW_TramTracks_01_n
+			DiffuseSampler SS_V_metrotracks2
+			SpecSampler SS_V_metrotracks_s
+			Bumpiness 1.0000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 60.0000000
+			SpecularFresnel 0.5000000
+			SpecularIntensityMult 0.2000000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler SS_NT_SEW_ground1_N
+			DiffuseSampler SS_V_metroground
+			SpecSampler SS_NT_SEW_ground1_S
+			Bumpiness 0.5000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 70.0000000
+			SpecularFresnel 0.6000000
+			SpecularIntensityMult 0.1000000
+			UseTessellation 0.0000000
+		}
+		normal.sps
+		{
+			BumpSampler ss_V_MetroRail_n
+			DiffuseSampler ss_V_MetroRail
+			Bumpiness 1.0000000
+			HardAlphaBlend 1.0000000
+			SpecularFalloffMult 160.0000000
+			SpecularFresnel 0.5000000
+			SpecularIntensityMult 0.7000000
+			UseTessellation 0.0000000
+		}
+		normal_spec_detail.sps
+		{
+			BumpSampler ah_tunconc_NRM
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			DiffuseSampler ah_metrobricks
+			SpecSampler ah_tunconc_SPEC
+			Bumpiness 1.0000000
+			DetailSettings 2.0000000 1.0000000 10.0000000 10.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 30.0000000
+			SpecularFresnel 0.9000000
+			SpecularIntensityMult 0.2000000
+			UseTessellation 0.0000000
+		}
+		spec.sps
+		{
+			DiffuseSampler SS_V_bluepaintwork
+			SpecSampler SS_V_flakepaintwork_s
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 150.0000000
+			SpecularFresnel 0.5000000
+			SpecularIntensityMult 0.4000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler P_Gen_Decal_01
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			metro_topen_step_\metro_topen_step__high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -7.6909180 -15.2246103 -3.2871089
+		AABBMax 9.2836914 15.0952101 3.5864260
+		Radius 17.7107
+		Center 0.7963867 -0.0647001 0.1496587
+	}
+	Light null
+	Bound null
+	Joints null
+}

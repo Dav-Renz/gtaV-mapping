@@ -1,0 +1,102 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			DiffuseSampler im_freeway_barrier001
+			BumpSampler im_freeway_barrier001_n
+			SpecSampler im_freeway_barrier001_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.65000000
+			SpecularFalloffMult 15.00000000
+			SpecularFresnel 0.95000000
+		}
+		normal.sps
+		{
+			DiffuseSampler DC_Road_Works_001
+			BumpSampler DC_Road_Works_001_N
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 5.00000000
+			SpecularIntensityMult 0.00000000
+			SpecularFalloffMult 0.00000000
+			SpecularFresnel 0.00000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler OS_MLGY_metal_bridge_0001
+			BumpSampler OS_MLGY_metal_bridge_0001_N
+			SpecSampler OS_MLGY_metal_bridge_0001_S
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.75000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler fwy_01_wallbase\dt1_04_rsn_gg_brick_0004.otx
+			BumpSampler fwy_01_wallbase\dt1_04_rsn_gg_brick_0004_n.otx
+			SpecSampler fwy_01_wallbase\dt1_04_rsn_gg_brick_0007_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.50000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.75000000
+		}
+		normal.sps
+		{
+			DiffuseSampler fwy_01_wallbase\mh_storm_dirty.otx
+			BumpSampler fwy_01_wallbase\mh_storm_dirty_nrm.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.75000000
+		}
+		normal.sps
+		{
+			DiffuseSampler fwy_01_wallbase\rsn_rbm_fw_w1.otx
+			BumpSampler fwy_01_wallbase\rsn_rbm_fw_w1_n.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.50000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.75000000
+		}
+		default.sps
+		{
+			DiffuseSampler fwy_01_wallbase\id1_27_rnmh_con_0002.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 7.04469300 -10.54929000 -1.28242800
+		Radius 66.15685000
+		AABBMin -58.40221000 -16.33588000 -9.02501500
+		AABBMax 72.49159000 -4.76269500 6.46015900
+		High 9998.00000000
+		{
+			fwy_01_wallbase\fwy_01_wallbase_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

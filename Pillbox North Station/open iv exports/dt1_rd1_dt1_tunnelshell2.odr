@@ -1,0 +1,62 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec.sps
+		{
+			DiffuseSampler rsn_os_tunnelwall
+			BumpSampler rsn_os_tunnelwall_n
+			SpecSampler rsn_os_tunnelwall_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.60000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.50000000
+			SpecularFalloffMult 120.00000000
+			SpecularFresnel 0.75000000
+		}
+		default.sps
+		{
+			DiffuseSampler IM_Wall_concrete32
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler mw_concWall_01
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler mw_concWall_01_dc_n
+			SpecSampler mw_concWall_01
+			DetailSettings 1.00000000 0.30000000 8.00000000 2.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.20000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.85000000
+		}
+		decal_shadow_only.sps
+		{
+			DiffuseSampler DC_Road_002_LOD
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.17022700 -0.00329600 0.05536700
+		Radius 22.23719000
+		AABBMin -16.98050000 -13.31860000 -4.74544900
+		AABBMax 17.32095000 13.31201000 4.85618200
+		High 9998.00000000
+		{
+			dt1_rd1_dt1_tunnelshell2\dt1_rd1_dt1_tunnelshell2_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

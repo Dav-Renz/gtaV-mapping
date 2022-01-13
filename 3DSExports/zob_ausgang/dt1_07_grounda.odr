@@ -1,0 +1,138 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler dt1_07_grounda\dt1_07_rsn_elements_tp_0001.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		terrain_cb_w_4lyr_pxm.sps
+		{
+			BumpSampler_layer0 im_concrete31_n
+			BumpSampler_layer1 im_concrete27_n
+			BumpSampler_layer2 im_concrete30_n
+			BumpSampler_layer3 im_concrete25_n
+			HeightMapSamplerLayer0 nxg_im_concrete31_h
+			HeightMapSamplerLayer1 nxg_im_concrete27_h
+			HeightMapSamplerLayer2 nxg_im_concrete30_h
+			HeightMapSamplerLayer3 nxg_im_concrete25_h
+			TextureSampler_layer0 im_concrete31_dark
+			TextureSampler_layer1 im_concrete27_grey
+			TextureSampler_layer2 im_concrete30
+			TextureSampler_layer3 im_concrete25
+			BumpSelfShadowAmount 0.3000000
+			Bumpiness 4.0000000
+			HeightBias0 0.0150000
+			HeightBias1 0.0150000
+			HeightBias2 0.0150000
+			HeightBias3 0.0150000
+			HeightScale0 0.0300000
+			HeightScale1 0.0300000
+			HeightScale2 0.0300000
+			HeightScale3 0.0300000
+			MaterialWetnessMultiplier 0.6000000 0.8000000 0.6000000 0.5000000
+			ParallaxSelfShadowAmount 0.9500000
+			SpecularFalloffMult 5.0000000
+			SpecularIntensityMult 0.0070000
+		}
+		normal.sps
+		{
+			BumpSampler im_grass13_n
+			DiffuseSampler im_grass13b
+			Bumpiness 1.0000000
+			HardAlphaBlend 1.0000000
+			SpecularFalloffMult 5.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler kt1_12_brickwall01a_n
+			DiffuseSampler kt1_12_brickwall01b_d
+			SpecSampler kt1_12_brickwall01b_d
+			Bumpiness 1.5000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		normal_spec_decal.sps
+		{
+			BumpSampler SC1_RSN_NS_ground_0005_N
+			DiffuseSampler SC1_RSN_NS_ground_0005
+			SpecSampler SC1_RSN_NS_ground_0005_S
+			Bumpiness 1.2000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 30.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1500000
+			UseTessellation 0.0000000
+		}
+		normal_spec_decal_tnt.sps
+		{
+			BumpSampler SC1_RSN_NS_ground_0007_N
+			DiffuseSampler SC1_RSN_NS_ground_0007
+			SpecSampler SC1_RSN_NS_ground_0007_S
+			TintPaletteSampler dt1_07_grounda\dt1_07_grounda_pal.otx
+			Bumpiness 1.2000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 30.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1500000
+			TintPaletteSelector 0.0000000 0.0000000
+			UseTessellation 0.0000000
+		}
+		normal_decal.sps
+		{
+			BumpSampler IM_RoadMarkings02_N
+			DiffuseSampler IM_RoadMarkings02IM_RoadMarkings02_a
+			Bumpiness 1.0000000
+			SpecularFalloffMult 20.0000000
+			SpecularFresnel 0.9000000
+			SpecularIntensityMult 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler dt1_07_grounda\sc1_rsn_ns_ground_0009.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler IM_Wall12_N
+			DiffuseSampler im_wall12b
+			SpecSampler IM_Wall12_S
+			Bumpiness 0.7000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 12.0000000
+			SpecularFresnel 0.9500000
+			SpecularIntensityMult 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			dt1_07_grounda\dt1_07_grounda_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -36.9736290 -43.5712891 -2.7407229
+		AABBMax 36.9736290 43.2524414 2.7407229
+		Radius 57.089
+		Center 0.0000000 -0.1594238 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

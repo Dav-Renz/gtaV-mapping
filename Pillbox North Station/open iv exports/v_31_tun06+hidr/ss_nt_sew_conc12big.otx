@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image ss_nt_sew_conc12big.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 9
+	Usage DIFFUSE
+	UsageFlags HD_SPLIT
+	ExtraFlags 0
+}

@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image nt_overlay01nt_overlay01_a.dds
+	Type Regular
+	PixelFormat DXT5
+	Levels 7
+	Usage DIFFUSE
+	UsageFlags HD_SPLIT
+	ExtraFlags 0
+}

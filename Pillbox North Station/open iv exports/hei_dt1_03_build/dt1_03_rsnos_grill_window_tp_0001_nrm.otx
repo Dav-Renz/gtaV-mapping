@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image dt1_03_rsnos_grill_window_tp_0001_nrm.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 7
+	Usage NORMAL
+	UsageFlags -
+	ExtraFlags 0
+}

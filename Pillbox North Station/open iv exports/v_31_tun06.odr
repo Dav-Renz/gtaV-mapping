@@ -1,0 +1,115 @@
+Version 165 32
+{
+	Shaders
+	{
+		spec.sps
+		{
+			DiffuseSampler NT_metal01
+			SpecSampler OS_metal01_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.70000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler mh_under_concrete
+			BumpSampler mh_under_concrete_NRM
+			SpecSampler mh_under_concrete
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.20000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.96000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler v_31_tun06\mh_bridge_striped01.otx
+			BumpSampler v_31_tun06\mh_bridge_striped01_nrm.otx
+			SpecSampler v_31_tun06\mh_bridge_striped01_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.96000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler v_31_tun06\ss_nt_sew_conc15big.otx
+			BumpSampler v_31_tun06\os_nt_sew_conc15big_nrm.otx
+			SpecSampler v_31_tun06\ss_nt_sew_conc15big.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.60000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.96000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler v_31_tun06\ss_v_breezeblock1.otx
+			BumpSampler v_31_tun06\ss_v_breezeblock1_n.otx
+			SpecSampler v_31_tun06\ss_v_breezeblock1.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler v_31_tun06\nxg_ah_tunnelmetpan.otx
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler v_31_tun06\ah_strplobwall_n.otx
+			SpecSampler v_31_tun06\os_sew_metal13_s.otx
+			DetailSettings 1.00000000 1.00000000 8.00000000 4.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.50000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 30.00000000
+			SpecularFresnel 0.70000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler v_31_tun06\ss_nt_sew_conc12big.otx
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler v_31_tun06\ss_v_glass_n.otx
+			SpecSampler v_31_tun06\ss_nt_sew_conc12big.otx
+			DetailSettings 4.00000000 2.00000000 10.00000000 10.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00003100 0.00421100 -0.01123000
+		Radius 67.71694000
+		AABBMin -51.41300000 -43.90772000 -3.75659200
+		AABBMax 51.41305000 43.91614000 3.73413100
+		High 9998.00000000
+		{
+			v_31_tun06\v_31_tun06_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image dc_road_002_lod.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 5
+	Usage DEFAULT
+	UsageFlags -
+	ExtraFlags 0
+}

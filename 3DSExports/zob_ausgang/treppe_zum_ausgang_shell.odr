@@ -1,0 +1,30 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler treppe_zum_ausgang_shell\ah_gun_dirt_conc.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			treppe_zum_ausgang_shell\treppe_zum_ausgang_shell.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -7.5192099 -1.2204680 -4.2553701
+		AABBMax 7.5192318 1.2204601 4.2553720
+		Radius 8.72562
+		Center 0.0000110 -0.0000041 0.0000010
+	}
+	Light null
+	Bound treppe_zum_ausgang_shell\treppe_zum_ausgang_shell.bound
+	Joints null
+}

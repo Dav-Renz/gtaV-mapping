@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image prop_container_01a_s.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 9
+	Usage SPECULAR
+	UsageFlags NOT_HALF HD_SPLIT
+	ExtraFlags 0
+}

@@ -1,0 +1,38 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler v_31_tun05stationsign\ss_v_msymbols.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		default_spec.sps
+		{
+			DiffuseSampler v_31_tun05stationsign\ss_v_mstations.otx
+			UseTessellation 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.97000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -7.43996400 20.92871000 2.37396200
+		Radius 35.42049000
+		AABBMin -35.92361000 0.02905300 -0.17492700
+		AABBMax 21.04369000 41.82837000 4.92285200
+		High 9998.00000000
+		{
+			v_31_tun05stationsign\v_31_tun05stationsign_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

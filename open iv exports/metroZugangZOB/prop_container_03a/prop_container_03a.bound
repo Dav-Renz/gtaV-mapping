@@ -1,0 +1,19 @@
+Version 43 31
+{
+	Type BoundBox
+	Radius 3.92047100
+	AABBMax 1.31830200 3.41787700 2.82215400
+	AABBMin -1.31830200 -3.40652500 0.00147581
+	Centroid 0.00000000 0.00567627 1.41181500
+	CG 0.00000000 0.00567627 1.41181500
+	Margin 0.04000000
+	Material
+	{
+		MaterialIndex 60
+		ProcId 0
+		RoomId 0
+		PedDensity 0
+		PolyFlags FORMATS_EMPTY_FLAGS
+		MaterialColorIndex 0
+	}
+}

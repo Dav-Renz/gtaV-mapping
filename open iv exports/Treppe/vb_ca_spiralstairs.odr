@@ -1,0 +1,46 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal.sps
+		{
+			DiffuseSampler vb_ca_spiralstairs\db_roof01.otx
+			BumpSampler vb_ca_spiralstairs\db_roof01_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.75000000
+		}
+		spec.sps
+		{
+			DiffuseSampler vb_ca_spiralstairs\ql_sm24_tpage_0004.otx
+			SpecSampler vb_ca_spiralstairs\ql_sm24_tpage_0003_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -5.37042200 -16.71280000 -4.94583800
+		Radius 4.28148800
+		AABBMin -6.40722700 -17.74963000 -8.96841800
+		AABBMax -4.33361800 -15.67596000 -0.92325800
+		High 9998.00000000
+		{
+			vb_ca_spiralstairs\vb_ca_spiralstairs_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image ss_v_dirtss_v_dirt3_a.dds
+	Type Regular
+	PixelFormat DXT5
+	Levels 7
+	Usage DEFAULT
+	UsageFlags -
+	ExtraFlags 0
+}

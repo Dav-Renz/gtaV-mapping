@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image ss_v_watermarkss_v_watermark_a.dds
+	Type Regular
+	PixelFormat DXT5
+	Levels 5
+	Usage DIFFUSE
+	UsageFlags -
+	ExtraFlags 0
+}

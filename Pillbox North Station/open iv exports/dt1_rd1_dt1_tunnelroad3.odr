@@ -1,0 +1,106 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_Kerbs03
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler IM_Kerbs03_N
+			SpecSampler IM_Kerbs03_S
+			DetailSettings 1.30000000 0.30000000 5.00000000 3.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.90000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_Road_001
+			DetailSampler ENV_NOISE_CONCRETE
+			BumpSampler IM_Road_001_N
+			SpecSampler IM_Road_001_S
+			DetailSettings 1.35000000 0.00000000 7.50000000 8.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 16.00000000
+			SpecularFresnel 0.95000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_Road_edge_001
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler IM_Road_edge_001_N
+			SpecSampler IM_Road_edge_001_S
+			DetailSettings 1.50000000 0.00000000 1.50000000 7.00000000
+			UseTessellation 0.00000000
+			Bumpiness 3.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.95000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_Road_006
+			DetailSampler ENV_NOISE_CONCRETE
+			BumpSampler IM_Road_006_N
+			SpecSampler IM_Road_006_S
+			DetailSettings 1.35000000 0.00000000 7.50000000 8.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 16.00000000
+			SpecularFresnel 0.95000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler DC_Sidewalk004
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler DC_Sidewalk004_N
+			SpecSampler DC_Sidewalk004_S
+			DetailSettings 1.00000000 0.00000000 5.00000000 5.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 15.00000000
+			SpecularFresnel 0.90000000
+		}
+		normal_spec_decal.sps
+		{
+			DiffuseSampler DC_Road_Damage_Dirt_002
+			BumpSampler DC_Road_Damage_Dirt_002_N
+			SpecSampler DC_Road_Damage_Dirt_002_S
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 40.00000000
+			SpecularFresnel 0.65000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -0.00235000 0.01687600 -4.19442600
+		Radius 25.46745000
+		AABBMin -20.25638000 -15.41632000 -4.62057100
+		AABBMax 20.25168000 15.45007000 -3.76828000
+		High 9998.00000000
+		{
+			dt1_rd1_dt1_tunnelroad3\dt1_rd1_dt1_tunnelroad3_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

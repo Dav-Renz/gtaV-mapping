@@ -1,0 +1,272 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_Freeway_road004
+			DetailSampler ENV_NOISE_CONCRETE
+			BumpSampler IM_Freeway_road004_N
+			SpecSampler IM_Freeway_road004_S
+			DetailSettings 0.80000000 0.00000000 8.00000000 8.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_Freeway_road006
+			DetailSampler ENV_CLOTH
+			BumpSampler IM_Freeway_road006_N
+			SpecSampler IM_Freeway_road006_S
+			DetailSettings 1.00000000 0.00000000 6.00000000 8.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 15.00000000
+			SpecularFresnel 0.90000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_Freeway_road007
+			DetailSampler ENV_CLOTH
+			BumpSampler IM_Freeway_road007_N
+			SpecSampler IM_Freeway_road007_s
+			DetailSettings 1.00000000 0.00000000 6.00000000 8.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 15.00000000
+			SpecularFresnel 0.90000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_Freeway_road008
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler IM_Freeway_road008_N
+			SpecSampler IM_Freeway_road008_S
+			DetailSettings 1.50000000 0.00000000 1.00000000 4.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 12.00000000
+			SpecularFresnel 0.90000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_Freeway_road009
+			DetailSampler ENV_SMOOTH_CONCRETE2
+			BumpSampler IM_Freeway_road009_N
+			SpecSampler IM_Freeway_road009_S
+			DetailSettings 1.50000000 0.00000000 1.00000000 4.00000000
+			UseTessellation 0.00000000
+			Bumpiness 2.00000000
+			SpecMapIntMask 0.00000000 0.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 15.00000000
+			SpecularFresnel 0.90000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_Freeway_road002
+			DetailSampler ENV_NOISE_CONCRETE
+			BumpSampler IM_Freeway_road002_N
+			SpecSampler IM_Freeway_road002_S
+			DetailSettings 0.80000000 0.00000000 8.00000000 8.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_Freeway_road001
+			DetailSampler ENV_NOISE_CONCRETE
+			BumpSampler IM_Freeway_road001_N
+			SpecSampler IM_Freeway_road001_S
+			DetailSettings 0.80000000 0.00000000 8.00000000 8.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.97000000
+		}
+		decal.sps
+		{
+			DiffuseSampler IM_RoadMarkings02IM_RoadMarkings02_a
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.00000000
+			SpecularFalloffMult 30.00000000
+			SpecularFresnel 0.97000000
+		}
+		decal.sps
+		{
+			DiffuseSampler IM_RoadMarkings04IM_RoadMarkings04_a
+			UseTessellation 0.00000000
+			SpecularIntensityMult 0.00000000
+			SpecularFalloffMult 0.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler im_freeway_barrier001
+			BumpSampler im_freeway_barrier001_n
+			SpecSampler im_freeway_barrier001_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.65000000
+			SpecularFalloffMult 15.00000000
+			SpecularFresnel 0.95000000
+		}
+		normal_spec_decal.sps
+		{
+			DiffuseSampler IM_Drains02
+			BumpSampler IM_Drains02_N
+			SpecSampler IM_Drains02_S
+			UseTessellation 0.00000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 50.00000000
+			SpecularFresnel 0.80000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler freeway_ubderbelly_new_01
+			BumpSampler freeway_ubderbelly_new_01_n
+			SpecSampler freeway_ubderbelly_new_01_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal.sps
+		{
+			DiffuseSampler RSN_RBM_FW_Und1
+			BumpSampler rsn_rbm_fw_und1_n
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		default.sps
+		{
+			DiffuseSampler bridge_base01
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		normal_spec_detail.sps
+		{
+			DiffuseSampler IM_Freeway_road010
+			DetailSampler ENV_NOISE_CONCRETE
+			BumpSampler IM_Freeway_road002_N
+			SpecSampler IM_Freeway_road002_S
+			DetailSettings 0.80000000 0.00000000 7.50000000 7.50000000
+			UseTessellation 0.00000000
+			Bumpiness 1.50000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal.sps
+		{
+			DiffuseSampler mh_bridgebase03
+			BumpSampler mh_bridgebase03_nrm
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 0.20000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		default.sps
+		{
+			DiffuseSampler mh_stormdrainbase02
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler mh_bridgeedge01
+			BumpSampler mh_bridgeedge01_NRM
+			SpecSampler fwy_01_rd_01\mh_bridgeedge01s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.75000000
+		}
+		normal.sps
+		{
+			DiffuseSampler mh_stormdrainbase05
+			BumpSampler mh_stormdrainbase05_NRM
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.75000000
+		}
+		default.sps
+		{
+			DiffuseSampler fwy_01_rd_01\bridge_nuggetsd.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler fwy_01_rd_01\im_wall_concrete32_big.otx
+			BumpSampler fwy_01_rd_01\im_wall_concrete32_big_n.otx
+			SpecSampler fwy_01_rd_01\im_wall_concrete32_big_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 15.00000000
+			SpecularFresnel 0.75000000
+		}
+		cpv_only.sps
+		{
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -0.07070500 -0.82949800 0.00000100
+		Radius 99.90236000
+		AABBMin -81.51826000 -58.17703000 -7.61830700
+		AABBMax 81.37685000 56.51803000 7.61830900
+		High 9998.00000000
+		{
+			fwy_01_rd_01\fwy_01_rd_01_high_0.mesh 0
+			fwy_01_rd_01\fwy_01_rd_01_high_1.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

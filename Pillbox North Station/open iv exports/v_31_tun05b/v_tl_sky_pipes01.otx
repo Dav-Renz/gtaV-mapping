@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image v_tl_sky_pipes01.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 5
+	Usage DIFFUSE
+	UsageFlags -
+	ExtraFlags 0
+}

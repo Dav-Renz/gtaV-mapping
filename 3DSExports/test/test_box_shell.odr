@@ -1,0 +1,30 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler test_box_shell\ah_gun_dirt_conc.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			test_box_shell\test_box.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -0.7239189 -0.7195244 -1.1434617
+		AABBMax 0.7941914 0.7534523 1.2589288
+		Radius 1.60045
+		Center 0.0351362 0.0169640 0.0577335
+	}
+	Light null
+	Bound null
+	Joints null
+}

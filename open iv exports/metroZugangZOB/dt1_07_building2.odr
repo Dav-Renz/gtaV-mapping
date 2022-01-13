@@ -1,0 +1,115 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec_pxm_tnt.sps
+		{
+			DiffuseSampler kt1_12_brickwallwhite01a_d
+			TintPaletteSampler dt1_07_building2\dt1_07_building2_pal.otx
+			HeightSampler kt1_12_brickwall01a_h
+			BumpSampler kt1_12_brickwall01a_n
+			SpecSampler kt1_12_brickwallwhite01a_d
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			ParallaxSelfShadowAmount 0.95000000
+			HeightBias 0.01500000
+			HeightScale 0.03000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.70000000
+			SpecularFalloffMult 10.00000000
+			SpecularFresnel 0.92000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		default.sps
+		{
+			DiffuseSampler im_roof03
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		default.sps
+		{
+			DiffuseSampler dt1_07_building2\dt1_07_rsn_element_tp_0002.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler dt1_07_building2\dt1_07_garagegate_d.otx
+			BumpSampler dt1_07_building2\dt1_07_garagegate_n.otx
+			SpecSampler dt1_07_building2\dt1_07_garagegate_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 200.00000000
+			SpecularFresnel 0.90000000
+		}
+		normal_spec_pxm_tnt.sps
+		{
+			DiffuseSampler im_metal39
+			TintPaletteSampler dt1_07_building2\dt1_07_building2_pal.otx
+			HeightSampler im_metal39_h
+			BumpSampler im_metal39_n
+			SpecSampler im_metal39_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			ParallaxSelfShadowAmount 0.95000000
+			HeightBias 0.01500000
+			HeightScale 0.03000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.82500000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.95000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		normal_spec_tnt.sps
+		{
+			DiffuseSampler dt1_07_rsn_element_tp_0002b
+			TintPaletteSampler dt1_07_building2\dt1_07_building2_pal.otx
+			BumpSampler dt1_07_rsn_element_tp_0002b_n
+			SpecSampler dt1_07_rsn_element_tp_0002b_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.50000000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.98000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler dt1_07_gg_carsigns
+			BumpSampler dt1_07_gg_carsigns_n
+			SpecSampler dt1_07_gg_carsigns_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 120.00000000
+			SpecularFresnel 0.90000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00001500 0.00097700 0.02089200
+		Radius 18.58243000
+		AABBMin -12.59112000 -13.37476000 -2.78258500
+		AABBMax 12.59116000 13.37671000 2.82436900
+		High 9998.00000000
+		{
+			dt1_07_building2\dt1_07_building2_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

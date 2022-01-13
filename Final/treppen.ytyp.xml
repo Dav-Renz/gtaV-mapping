@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="113.088" />
+      <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="1.22047" y="-7.51921" z="-4.25537" />
+      <bbMax x="-1.22046" y="7.51923" z="4.25537" />
+      <bsCentre x="3.99351e-06" y="1.09673e-05" z="9.53674e-07" />
+      <bsRadius value="8.72562" />
+      <hdTextureDist value="84.8163" />
+      <name>treppe_zum_ausgang_shell</name>
+      <textureDictionary>treppe_zum_ausgang_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>rename</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>treppe_zum_ausgang_shell</assetName>
+      <extensions />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="102.651" />
+      <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="0.599695" y="-1.45114" z="-0.810547" />
+      <bbMax x="-0.599664" y="1.45112" z="0.810547" />
+      <bsCentre x="1.5378e-05" y="-8.16584e-06" z="0.0" />
+      <bsRadius value="1.76703" />
+      <hdTextureDist value="76.9879" />
+      <name>treppe_zum_tunnel_shell</name>
+      <textureDictionary>treppe_zum_tunnel_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>rename</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>treppe_zum_tunnel_shell</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>New</name>
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

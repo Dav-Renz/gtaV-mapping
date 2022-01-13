@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="106.421" />
+      <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.03467" y="-1.03516" z="-3.98584" />
+      <bbMax x="1.03516" y="1.03467" z="4.05957" />
+      <bsCentre x="0.000244021" y="-0.000244021" z="0.0368649" />
+      <bsRadius value="4.28068" />
+      <hdTextureDist value="79.8158" />
+      <name>wendeltreppe</name>
+      <textureDictionary>wendeltreppe</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wendeltreppe</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>New</name>
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

@@ -1,0 +1,80 @@
+Version 165 32
+{
+	Shaders
+	{
+		decal.sps
+		{
+			DiffuseSampler prop_container_03a\prop_container_decalset_03prop_container_decalset_03_a.otx
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+			SpecularIntensityMult 0.00000000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal_spec_detail_tnt.sps
+		{
+			DiffuseSampler prop_container_03a\prop_container_base_01.otx
+			TintPaletteSampler prop_container_03a\prop_container_03a_pal.otx
+			DetailSampler env_crusty
+			BumpSampler prop_container_03a\prop_container_01a_n.otx
+			SpecSampler prop_container_03a\prop_container_01a_s.otx
+			DetailSettings 0.10000000 0.10000000 8.00000000 8.00000000
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+			Bumpiness 1.10000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.50000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.75000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		normal_tnt.sps
+		{
+			DiffuseSampler prop_container_03a\prop_container_base_01.otx
+			TintPaletteSampler prop_container_03a\prop_container_03al1_pal.otx
+			BumpSampler prop_container_03a\prop_container_01a_n.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+			Bumpiness 1.10000000
+			SpecularIntensityMult 0.08000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.75000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+		default_tnt.sps
+		{
+			DiffuseSampler prop_container_03a\prop_container_base_01.otx
+			TintPaletteSampler prop_container_03a\prop_container_03al2_pal.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+			TintPaletteSelector 0.00000000 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00033200 -0.00152600 1.41181500
+		Radius 3.92685200
+		AABBMin -1.31830200 -3.42092900 0.00147600
+		AABBMax 1.31896600 3.41787700 2.82215500
+		High 60.00000000
+		{
+			prop_container_03a\prop_container_03a_high.mesh 0
+		}
+		Med 160.00000000
+		{
+			prop_container_03a\prop_container_03a_med.mesh 0
+		}
+		Low 9998.00000000
+		{
+			prop_container_03a\prop_container_03a_low.mesh 0
+		}
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_container_03a\prop_container_03a.bound
+}

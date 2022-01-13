@@ -1,0 +1,36 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler SS_V_metrogroundLOD
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		default.sps
+		{
+			DiffuseSampler SS_V_metrotracks2LOD
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 0.00000000 0.00003100 -0.00048200
+		Radius 8.56695500
+		AABBMin -2.50003100 -7.54998800 -3.18478400
+		AABBMax 2.50003100 7.55004900 3.18382100
+		High 9998.00000000
+		{
+			metro_t_join_lod014\metro_t_join_lod014_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light metro_t_join_lod014\metro_t_join_lod014.light
+	Bound null
+}

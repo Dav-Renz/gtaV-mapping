@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="102.401" />
+      <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.723919" y="-0.719524" z="-1.14346" />
+      <bbMax x="0.794191" y="0.753452" z="1.25893" />
+      <bsCentre x="0.0351362" y="0.016964" z="0.0577335" />
+      <bsRadius value="1.60045" />
+      <hdTextureDist value="76.8005" />
+      <name>test_box</name>
+      <textureDictionary>test_box</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>rename</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>test_box</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>New</name>
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

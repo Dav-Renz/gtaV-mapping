@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image dt1_21_rsn_cmk_stair_n.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 7
+	Usage NORMAL
+	UsageFlags HD_SPLIT
+	ExtraFlags 0
+}

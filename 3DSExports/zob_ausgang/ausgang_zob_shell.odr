@@ -1,0 +1,30 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler ausgang_zob_shell\ah_gun_dirt_conc.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			ausgang_zob_shell\ausgang_zob_shell_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -4.0683002 -1.2957482 -1.7763443
+		AABBMax 4.0682735 1.2956896 1.7763441
+		Radius 4.62442
+		Center -0.0000134 -0.0000293 -0.0000001
+	}
+	Light null
+	Bound null
+	Joints null
+}

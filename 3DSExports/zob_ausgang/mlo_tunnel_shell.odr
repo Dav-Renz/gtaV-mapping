@@ -1,0 +1,30 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler mlo_tunnel_shell\ah_gun_dirt_conc.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			mlo_tunnel_shell\mlo_tunnel_shell_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -37.9175682 -10.4526777 -6.4135933
+		AABBMax 37.9175797 10.4526234 6.4135876
+		Radius 39.8514
+		Center 0.0000038 -0.0000277 -0.0000029
+	}
+	Light null
+	Bound null
+	Joints null
+}

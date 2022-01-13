@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image nxg_tun_mudtracksh_normals2.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 9
+	Usage NORMAL
+	UsageFlags -
+	ExtraFlags 0
+}

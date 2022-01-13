@@ -1,0 +1,285 @@
+Version 43 31
+{
+	Type BoundComposite
+	AABBMin -4.0683002 -1.2957482 -1.7763443
+	AABBMax 4.0682735 1.2956896 1.7763441
+	Radius 4.62442
+	Centroid -0.0000134 -0.0000293 -0.0000001
+	CG 0.3074821 0.0110561 0.1077093
+	VertexColors null
+	MaterialColors null
+	ChildTransforms 1
+	{
+		Matrix 0
+		{
+			1.0000000 0.0000000 0.0000000
+			0.0000000 1.0000000 0.0000000
+			0.0000000 0.0000000 1.0000000
+			0.0000000 0.0000000 0.0000000
+		}
+	}
+	ChildFlags 1
+	{
+		Item
+		{
+			Flags1 MAP_ANIMAL MAP_COVER MAP_DYNAMIC MAP_VEHICLE MAP_WEAPON
+			Flags2 ANIMAL ANIMAL_RAGDOLL EXPLOSION FOLIAGE FORKLIFT_FORKS GLASS MAP_ANIMAL MAP_COVER MAP_DEEP_SURFACE MAP_DYNAMIC MAP_RIVER MAP_STAIRS MAP_VEHICLE MAP_WEAPON OBJECT OBJECT_ENV_CLOTH PED PICKUP PLANT PROJECTILE RAGDOLL SMOKE TEST_AI TEST_CAMERA TEST_SCRIPT TEST_VEHICLE_WHEEL TEST_WEAPON UNKNOWN UNSMASHED VEHICLE_BOX VEHICLE_BVH VEHICLE_NOT_BVH
+		}
+	}
+	Children 1
+	{
+		phBound
+		{
+			Type BoundBVH
+			AABBMin -4.0683002 -1.2957482 -1.7763443
+			AABBMax 4.0682735 1.2956896 1.7763441
+			Radius 4.62442
+			Centroid -0.0000134 -0.0000293 -0.0000001
+			CG 0.3074821 0.0110561 0.1077093
+			Margin 0.005
+			GeometryCenter -0.0000134 -0.0000293 -0.0000001 0.002
+			Materials 2
+			{
+				Material 0
+				{
+					MaterialIndex 3
+					ProcId 0
+					RoomId 1
+					PedDensity 0
+					PolyFlags FORMATS_EMPTY_FLAGS
+					MaterialColorIndex 0
+				}
+				Material 1
+				{
+					MaterialIndex 1
+					ProcId 0
+					RoomId 1
+					PedDensity 0
+					PolyFlags FORMATS_EMPTY_FLAGS
+					MaterialColorIndex 0
+				}
+			}
+			VertexColors null
+			MaterialColors null
+			Polygons 32
+			{
+				Tri 0
+				{
+					Vertices 18 19 6
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 1
+				{
+					Vertices 6 4 18
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 2
+				{
+					Vertices 1 8 10
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 3
+				{
+					Vertices 0 1 10
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 4
+				{
+					Vertices 0 10 5
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 5
+				{
+					Vertices 0 5 18
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 6
+				{
+					Vertices 0 18 4
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 7
+				{
+					Vertices 3 9 8
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 8
+				{
+					Vertices 8 1 3
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 9
+				{
+					Vertices 3 2 6
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 10
+				{
+					Vertices 19 7 11
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 11
+				{
+					Vertices 6 19 11
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 12
+				{
+					Vertices 3 6 11
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 13
+				{
+					Vertices 3 11 9
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 14
+				{
+					Vertices 2 0 4
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 15
+				{
+					Vertices 4 6 2
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 16
+				{
+					Vertices 15 10 8
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 17
+				{
+					Vertices 14 15 8
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 18
+				{
+					Vertices 11 14 8
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 19
+				{
+					Vertices 9 11 8
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 20
+				{
+					Vertices 12 16 17
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 21
+				{
+					Vertices 17 13 12
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 22
+				{
+					Vertices 5 10 15
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 23
+				{
+					Vertices 5 15 16
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 24
+				{
+					Vertices 12 5 16
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 25
+				{
+					Vertices 11 7 13
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 26
+				{
+					Vertices 11 13 17
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 27
+				{
+					Vertices 14 11 17
+					Siblings -1 -1 -1
+					MaterialIndex 1
+				}
+				Tri 28
+				{
+					Vertices 18 5 12
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 29
+				{
+					Vertices 18 12 13
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 30
+				{
+					Vertices 18 13 7
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+				Tri 31
+				{
+					Vertices 18 7 19
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+			}
+			ComputePolyNeighbors True
+			Vertices 20
+			{
+				-4.0682483 -1.2957189 -1.7763404
+				3.8341558 -1.2957189 -1.7763442
+				-4.0682483 1.2957189 -1.7763404
+				4.0682869 1.2957189 -1.7763442
+				-4.0682869 -1.2957189 -1.0486157
+				3.2866704 -1.2957189 1.7763442
+				-4.0682869 1.2957189 -1.0486157
+				3.5208013 1.2957189 1.7763442
+				3.8341558 -1.2957189 -1.4758050
+				4.0682869 1.2957189 -1.4758050
+				3.2866533 -1.2957189 -1.4758189
+				3.5207841 1.2957189 -1.4758189
+				3.3647141 -0.6477268 1.7763442
+				3.4427576 0.5009978 1.7763442
+				3.4427404 0.5009983 -1.4758189
+				3.3646970 -0.6477263 -1.4758189
+				3.3647056 -0.6477265 0.7147156
+				3.4427490 0.5009980 0.7147156
+				-0.1004951 -1.2957189 1.7763115
+				0.0165703 1.2957189 1.7763115
+			}
+		}
+	}
+}

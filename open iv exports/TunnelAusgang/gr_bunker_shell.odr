@@ -1,0 +1,120 @@
+Version 165 32
+{
+	Shaders
+	{
+		terrain_cb_w_4lyr_spec_int.sps
+		{
+			TextureSampler_layer0 ah_GUN_brickwall
+			BumpSampler_layer0 ah_GUN_brickwall_N
+			TextureSampler_layer1 ah_GUN_rough_render
+			BumpSampler_layer1 ah_GUN_rough_render_N
+			TextureSampler_layer2 ah_GUN_rockwallmain2
+			BumpSampler_layer2 ah_GUN_rockwallmain2_N
+			TextureSampler_layer3 ah_GUN_white_paint
+			BumpSampler_layer3 ah_GUN_rockwallmain_N
+			MaterialWetnessMultiplier 0.00000000 0.00000000 0.00000000 0.00000000
+			BumpSelfShadowAmount 0.30000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.00000000
+			SpecularFalloffMult 48.00000000
+		}
+		terrain_cb_w_4lyr_spec_int.sps
+		{
+			TextureSampler_layer0 ah_GUN_conc_flrmaindrk
+			BumpSampler_layer0 ah_GUN_conc_flrmain_N
+			TextureSampler_layer1 ah_GUN_dirt_flr
+			BumpSampler_layer1 ah_GUN_conc_flrmain_N
+			TextureSampler_layer2 ah_GUN_conccracked
+			BumpSampler_layer2 ah_GUN_conccracked_N
+			TextureSampler_layer3 ah_GUN_darkflr
+			BumpSampler_layer3 ah_GUN_conc_flrmain_N
+			MaterialWetnessMultiplier 0.00000000 0.00000000 0.00000000 0.00000000
+			BumpSelfShadowAmount 0.30000000
+			Bumpiness 2.00000000
+			SpecularIntensityMult 0.40000000
+			SpecularFalloffMult 30.00000000
+		}
+		terrain_cb_w_4lyr_spec_int.sps
+		{
+			TextureSampler_layer0 gr_bunker_shell\ah_gun_rockwallmain.otx
+			BumpSampler_layer0 ah_GUN_rockwallmain_N
+			TextureSampler_layer1 gr_bunker_shell\ah_gun_rock_harsh.otx
+			BumpSampler_layer1 gr_bunker_shell\ah_gun_rock_harsh_n.otx
+			TextureSampler_layer2 ah_GUN_rockwallmain2
+			BumpSampler_layer2 ah_GUN_rockwallmain2_N
+			TextureSampler_layer3 gr_bunker_shell\ah_gun_concrete_ceilingd.otx
+			BumpSampler_layer3 gr_bunker_shell\ah_gun_concrete_ceiling_n.otx
+			MaterialWetnessMultiplier 0.00000000 0.00000000 0.00000000 0.00000000
+			BumpSelfShadowAmount 0.30000000
+			Bumpiness 2.00000000
+			SpecularIntensityMult 0.50000000
+			SpecularFalloffMult 48.00000000
+		}
+		terrain_cb_w_4lyr_spec_int.sps
+		{
+			TextureSampler_layer0 gr_bunker_shell\ah_gun_wall_conc.otx
+			BumpSampler_layer0 gr_bunker_shell\ah_gun_wall_concn.otx
+			TextureSampler_layer1 ah_GUN_rough_render
+			BumpSampler_layer1 ah_GUN_rough_render_N
+			TextureSampler_layer2 ah_GUN_rockwallmain2
+			BumpSampler_layer2 ah_GUN_rockwallmain2_N
+			TextureSampler_layer3 gr_bunker_shell\ah_gun_concrete_wall.otx
+			BumpSampler_layer3 gr_bunker_shell\ah_gun_concrete_wall_n.otx
+			MaterialWetnessMultiplier 0.00000000 0.00000000 0.00000000 0.00000000
+			BumpSelfShadowAmount 0.30000000
+			Bumpiness 2.00000000
+			SpecularIntensityMult 0.00000000
+			SpecularFalloffMult 48.00000000
+		}
+		terrain_cb_w_4lyr_spec_int.sps
+		{
+			TextureSampler_layer0 gr_bunker_shell\ah_gun_type1.otx
+			BumpSampler_layer0 gr_bunker_shell\ah_gun_type1_n.otx
+			TextureSampler_layer1 gr_bunker_shell\ah_gun_conc_flrmain.otx
+			BumpSampler_layer1 ah_GUN_conc_flrmain_N
+			TextureSampler_layer2 gr_bunker_shell\ah_gun_rock_dirt.otx
+			BumpSampler_layer2 gr_bunker_shell\ah_gun_rock_dirt_n.otx
+			TextureSampler_layer3 ah_GUN_gravel
+			BumpSampler_layer3 ah_GUN_gravel_N
+			MaterialWetnessMultiplier 0.00000000 0.00000000 0.00000000 0.00000000
+			BumpSelfShadowAmount 0.30000000
+			Bumpiness 2.00000000
+			SpecularIntensityMult 0.20000000
+			SpecularFalloffMult 90.00000000
+		}
+		terrain_cb_w_4lyr_spec_int.sps
+		{
+			TextureSampler_layer0 gr_bunker_shell\ah_gun_rockwallmain.otx
+			BumpSampler_layer0 ah_GUN_rockwallmain_N
+			TextureSampler_layer1 ah_GUN_rough_render
+			BumpSampler_layer1 ah_GUN_rough_render_N
+			TextureSampler_layer2 ah_GUN_rockwallmain2
+			BumpSampler_layer2 ah_GUN_rockwallmain2_N
+			TextureSampler_layer3 ah_GUN_dirt_flr
+			BumpSampler_layer3 ah_GUN_dirt_concN
+			MaterialWetnessMultiplier 0.00000000 0.00000000 0.00000000 0.00000000
+			BumpSelfShadowAmount 0.30000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.20000000
+			SpecularFalloffMult 48.00000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center -45.53340000 -55.48340000 8.18649200
+		Radius 151.21130000
+		AABBMin -163.74430000 -149.03860000 -3.58135000
+		AABBMax 72.67744000 38.07176000 19.95433000
+		High 9998.00000000
+		{
+			gr_bunker_shell\gr_bunker_shell_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}

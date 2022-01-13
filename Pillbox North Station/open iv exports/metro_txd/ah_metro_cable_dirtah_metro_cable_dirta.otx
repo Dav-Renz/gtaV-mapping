@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image ah_metro_cable_dirtah_metro_cable_dirta.dds
+	Type Regular
+	PixelFormat DXT5
+	Levels 8
+	Usage DIFFUSE
+	UsageFlags HD_SPLIT
+	ExtraFlags 0
+}

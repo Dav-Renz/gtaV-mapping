@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CMapData>
+  <name>New</name>
+  <parent />
+  <flags value="0" />
+  <contentFlags value="0" />
+  <streamingExtentsMin x="-103.125" y="-103.12" z="-103.544" />
+  <streamingExtentsMax x="103.195" y="103.154" z="103.66" />
+  <entitiesExtentsMin x="-0.723919" y="-0.719524" z="-1.14346" />
+  <entitiesExtentsMax x="0.794191" y="0.753452" z="1.25893" />
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>test_box</archetypeName>
+      <flags value="0" />
+      <guid value="1146834990" />
+      <position x="0.0" y="0.0" z="0.0" />
+      <rotation x="0.0" y="0.0" z="0.0" w="1.0" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="102.401" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>test_box_col</archetypeName>
+      <flags value="0" />
+      <guid value="243337962" />
+      <position x="0.0" y="0.0" z="0.0" />
+      <rotation x="0.0" y="0.0" z="0.0" w="1.0" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="102.401" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+  </entities>
+  <containerLods />
+  <boxOccluders />
+  <occludeModels />
+  <physicsDictionaries />
+  <instancedData>
+    <ImapLink />
+    <PropInstanceList />
+    <GrassInstanceList />
+  </instancedData>
+  <timeCycleModifiers />
+  <carGenerators />
+  <LODLightsSOA>
+    <direction />
+    <falloff />
+    <falloffExponent />
+    <timeAndStateFlags />
+    <hash />
+    <coneInnerAngle />
+    <coneOuterAngleOrCapExt />
+    <coronaIntensity />
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position />
+    <RGBI />
+    <numStreetLights value="0" />
+    <category value="0" />
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0" />
+    <flags value="0" />
+    <name>Custom</name>
+    <exportedBy>Neos7's Maxscript</exportedBy>
+    <owner>pablo</owner>
+    <time>09.01.2022 02:15:58</time>
+  </block>
+</CMapData>

@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image rsn_os_dt1_05_striplight_001_new.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 6
+	Usage DIFFUSE
+	UsageFlags HD_SPLIT
+	ExtraFlags 0
+}

@@ -1,0 +1,118 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec_pxm.sps
+		{
+			DiffuseSampler NT_SEW_conc10
+			HeightSampler NXG_AH_concHM
+			BumpSampler OS_SEW_conc10_n
+			SpecSampler OS_SEW_conc10_s
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			ParallaxSelfShadowAmount 0.95000000
+			HeightBias 0.01500000
+			HeightScale 0.03000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 15.00000000
+			SpecularFresnel 0.97000000
+		}
+		normal.sps
+		{
+			DiffuseSampler NT_SEW_conc11
+			BumpSampler NT_SEW_conc4_NRM
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.50000000
+		}
+		normal_spec_pxm.sps
+		{
+			DiffuseSampler NXG_AH_ground01b
+			HeightSampler NXG_sew_mainmud_heights2
+			BumpSampler NXG_sew_mainmud_normals2
+			SpecSampler NXG_sew_mainmud_heights2
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			ParallaxSelfShadowAmount 0.95000000
+			HeightBias 0.01500000
+			HeightScale 0.03000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 80.00000000
+			SpecularFresnel 0.96000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler ah_tunconc
+			BumpSampler ah_tunconc_NRM
+			SpecSampler ah_tunconc_SPEC
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 0.60000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.96000000
+		}
+		normal_spec_pxm.sps
+		{
+			DiffuseSampler CS_RSN_SL_SpineRock3
+			HeightSampler NXG_AH_SL_SpineRock3_HM
+			BumpSampler CS_RSN_SL_SpineRock3_N
+			SpecSampler CS_RSN_SL_SpineRock3
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			ParallaxSelfShadowAmount 0.95000000
+			HeightBias 0.01500000
+			HeightScale 0.03000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 70.00000000
+			SpecularFresnel 0.95000000
+		}
+		default.sps
+		{
+			DiffuseSampler NT_SEW_wood1
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler RN_TF_CanyonScree_001
+			BumpSampler RN_TF_CanyonScree_001_N
+			SpecSampler RN_TF_CanyonScree_001
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			Bumpiness 1.00000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 20.00000000
+			SpecularFresnel 0.96000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		Center 24.87097000 -17.54205000 -0.07428000
+		Radius 86.28149000
+		AABBMin -17.45043000 -92.44263000 -6.65448000
+		AABBMax 67.19237000 57.35852000 6.50592000
+		High 9998.00000000
+		{
+			v_31a_jh_tunn_04b\v_31a_jh_tunn_04b_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound null
+}
